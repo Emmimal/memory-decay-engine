@@ -170,4 +170,4 @@ Skip it if:
 
 ## License
 
-MIT — **no LICENSE file exists in this project yet; add one before making the repo public if you intend to license it this way.**
+MIT 
