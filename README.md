@@ -7,7 +7,7 @@ A pure-Python, zero-dependency memory decay engine for AI agent context — impl
 
 Most long-running agent memory systems evict old context with a sliding window: if something hasn't been touched in N turns, it's gone. This treats a foundational fact stated once on turn 1 and a throwaway debug log from turn 40 as identical — whichever is older loses, no matter how many times either one has actually been used. This library scores retention using the Ebbinghaus forgetting curve instead, where every recall reinforces an item's stability and pushes its eviction horizon out non-linearly.
 
-Read the full write-up on Towards Data Science → *Context Windows Forget What Matters — I Used a 140-Year-Old Psychology Paper to Fix AI Memory* **[add live URL here once published]**
+Read the full write-up on Towards Data Science → *Context Windows Forget What Matters — I Used a 140-Year-Old Psychology Paper to Fix AI Memory* **https://towardsdatascience.com/author/emmimalp-alexander/**
 
 ## What It Does
 
