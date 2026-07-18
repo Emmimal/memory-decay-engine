@@ -1,0 +1,5 @@
+# No external dependencies.
+# Everything in this project runs on the Python standard library only
+# (tested on Python 3.12.3). This file is intentionally empty -- it
+# exists so `pip install -r requirements.txt` is a documented no-op
+# rather than an assumption.
